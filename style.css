@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+
+}
+canvas {
+    background: linear-gradient(47deg, #9B72AA, #C6B4CE);
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(10px) contrast(10px);
+}
+h1 {
+  z-index: 100;
+  position: absolute;
+  pointer-events: none;
+  width: 100%;
+  text-align: center;
+ }
